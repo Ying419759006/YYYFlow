@@ -15,6 +15,7 @@
 		C175BB45213E6D8B008948E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C175BB43213E6D8B008948E6 /* LaunchScreen.storyboard */; };
 		C175BB50213E6D8B008948E6 /* YYYFlowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C175BB4F213E6D8B008948E6 /* YYYFlowDemoTests.m */; };
 		C175BB5B213E6D8B008948E6 /* YYYFlowDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C175BB5A213E6D8B008948E6 /* YYYFlowDemoUITests.m */; };
+		C175BB6B213E6D9E008948E6 /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C175BB6A213E6D9E008948E6 /* WaterFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		C175BB56213E6D8B008948E6 /* YYYFlowDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYYFlowDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C175BB5A213E6D8B008948E6 /* YYYFlowDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYYFlowDemoUITests.m; sourceTree = "<group>"; };
 		C175BB5C213E6D8B008948E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C175BB69213E6D9E008948E6 /* WaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		C175BB6A213E6D9E008948E6 /* WaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,7 @@
 		C175BB2C213E6D89008948E6 /* YYYFlowDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C175BB68213E6D9E008948E6 /* 瀑布流 */,
 				C175BB30213E6D89008948E6 /* AppDelegate.h */,
 				C175BB31213E6D89008948E6 /* AppDelegate.m */,
 				C175BB38213E6D89008948E6 /* Resources */,
@@ -160,6 +164,15 @@
 				C175BB5C213E6D8B008948E6 /* Info.plist */,
 			);
 			path = YYYFlowDemoUITests;
+			sourceTree = "<group>";
+		};
+		C175BB68213E6D9E008948E6 /* 瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				C175BB69213E6D9E008948E6 /* WaterFlowLayout.h */,
+				C175BB6A213E6D9E008948E6 /* WaterFlowLayout.m */,
+			);
+			path = "瀑布流";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C175BB35213E6D89008948E6 /* ViewController.m in Sources */,
+				C175BB6B213E6D9E008948E6 /* WaterFlowLayout.m in Sources */,
 				C175BB32213E6D89008948E6 /* AppDelegate.m in Sources */,
 				C175BB2F213E6D89008948E6 /* main.m in Sources */,
 			);
